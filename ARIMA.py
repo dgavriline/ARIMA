@@ -6,7 +6,7 @@ from QuantConnect.Algorithm import *
 class Algorithm_TBD(QCAlgorithm):
 
     def Initialize(self):
-        self.SetStartDate(2020, 1, 1)  # Set Start Date
+        self.SetStartDate(2021, 1, 1)  # Set Start Date
         self.SetCash(100000)  # Set Strategy Cash
         self.EnableAutomaticIndicatorWarmUp = True
         self.securities_volu = ['AMD', 'ORCL', 'TSLA'] # Securities for high volume days
